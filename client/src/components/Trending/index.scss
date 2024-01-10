@@ -1,0 +1,46 @@
+#trending {
+    padding: 50px 0px;
+    .producttext {
+        p {
+            color: #777;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 1.667;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: 600;
+
+            .section-intro__style {
+                border-bottom: 1px solid blue;
+
+            }
+        }
+        .products{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            ul{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                p{
+                    color: #777;
+                    font-family: "Roboto",sans-serif;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 1.667;
+                }
+                h4{
+                    color: #222;
+                    font-size: 25px;
+                }
+                li{
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
